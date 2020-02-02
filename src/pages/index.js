@@ -1,3 +1,8 @@
 import React from "react"
+import { Title, Container } from "bloomer"
 
-export default () => <div>Hello world!</div>
+export default () => (
+  <Container>
+    <Title>hello world!</Title>
+  </Container>
+)
